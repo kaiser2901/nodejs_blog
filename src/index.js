@@ -26,7 +26,7 @@ app.get('/news', (req, res) => {
   res.render('news');
 });
 app.get('/search', (req, res) => {
-  console.log(req.query);
+  console.log(req.query); // get query parameter in response
   res.render('search');
 });
 
